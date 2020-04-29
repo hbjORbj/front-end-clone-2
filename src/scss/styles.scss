@@ -1,5 +1,6 @@
 @import "_variables";
 @import "_titles";
+@import "_reset";
 
 * {
   box-sizing: border-box;
@@ -36,6 +37,7 @@ header {
   img {
     width: 55px;
     margin-top: 20px;
+    cursor: pointer;
   }
   nav {
     margin-top: -30px;
@@ -45,9 +47,13 @@ header {
     ul {
       display: flex;
       li {
+        cursor: pointer;
         @extend %miniTitle;
         &:nth-child(2) {
           margin-left: 50px;
+        }
+        &:hover {
+          opacity: 0.2;
         }
       }
     }
@@ -292,6 +298,7 @@ header {
   text-align: center;
   span {
     opacity: 0.5;
+    cursor: pointer;
   }
 }
 
