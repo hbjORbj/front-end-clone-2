@@ -5,4 +5,8 @@
 
 ## To Clone:
 
-- [x] [https://paint-box.com/](https://paint-box.com/)
+- [https://paint-box.com/](https://paint-box.com/)
+
+## Result:
+
+- [https://hbjorbj.github.io/front-end-clone-2/](https://hbjorbj.github.io/front-end-clone-2/)
